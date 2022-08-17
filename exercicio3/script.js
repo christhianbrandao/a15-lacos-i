@@ -2,8 +2,8 @@ const maioresPaises = ["Rússia", "Canadá", "China", "EUA", "Brasil"];
 
 console.log(maioresPaises.length)
 
-for(let i=0;i<=maioresPaises.length;i++){
-    console.log(i,maioresPaises[i])
+for(let i=0;i<=maioresPaises.length-1;i++){
+    console.log((i+1)+"-"+maioresPaises[i])
     
 
 }
